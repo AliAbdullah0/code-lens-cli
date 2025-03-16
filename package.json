@@ -1,0 +1,38 @@
+{
+  "name": "code-lens-cli",
+  "version": "1.0.0",
+  "description": "A powerful and interactive CLI tool to search files in a project, view content, and highlight keywords easily in terminal.",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "code-lens": "./bin/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "code-lens",
+    "file-search",
+    "file-viewer",
+    "terminal",
+    "highlight",
+    "code-reader",
+    "nodejs",
+    "chalk",
+    "interactive",
+    "developer-tool",
+    "dev-utility"
+  ],
+  "author": "zedento",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliAbdullah0/code-lens-cli"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "inquirer": "^12.5.0"
+  }
+}
