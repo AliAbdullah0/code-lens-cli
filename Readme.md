@@ -1,51 +1,62 @@
-# code-lens-cli 🔍
 
-A powerful CLI tool to search for files in your project and explore their content interactively.
+# 📂 file-checker-test
 
-## Features
-- 🔍 Search file across entire project directory
-- 📄 View file content in terminal
-- ✨ Search and highlight keywords inside files
-- 🧠 Interactive prompts using Inquirer
-- ⚡ Simple and intuitive terminal interface
+A powerful Node.js CLI tool to **search, view, edit, and delete files and folders** directly from the terminal.
 
-## Installation
+## 🚀 Features
+
+- 🔍 Search files or folders recursively
+- 📄 View full file content
+- ✏️ Inline file editing
+- 📝 Multi-line editing
+- ➕ Add/Remove lines
+- 📂 External editor support (nano/vim)
+- ❌ Delete files and folders
+- 🧠 Keyword search with highlights
+
+## 📦 Installation
 
 ```bash
-npm install -g code-lens-cli
+npm install -g file-checker-test
 ```
 
-# Usage 
+## 🛠 Usage
 
-1. code-lens check ``[options]``
+### Check (Search File)
+```bash
+file-checker-test check
+```
 
-   ```-f, --file <filename>	Specify the file name to search directly without prompt```
+### Edit File
+```bash
+file-checker-test edit
+```
 
-    **e.g** : ```-f or --file <filename>```	Specify the file name to search directly without prompt
+### Delete File or Folder
+```bash
+file-checker-test delete
+```
 
-<br>
+## ✨ Edit Modes
 
-    code-lens check
-🔸 Prompts you to enter a file name interactively.
-# code-lens check
-<li> Enter file name to search for: index.js
-✅ 2 file(s) found:
+- `Inline Edit`: Edit a single line by number.
+- `Multi-line Edit`: Edit multiple lines in one go.
+- `Add/Remove Lines`: Add or remove lines from a file.
+- `External Editor`: Edit in notepad,vs code,nano or vim.
 
-1. /home/user/project/src/index.js
-2. /home/user/project/test/index.js
+## 📂 Example
 
-<li> Select a file to read its content:
-✔ /home/user/project/src/index.js
+```bash
+file-checker-test check --file index.js
+file-checker-test edit
+file-checker-test delete
+```
 
-<li> Do you want to search for a keyword or view full file?
-✔ Search keyword
-<br>
-✔ Enter keyword to search:
- render
-<br>
-<br>
+## 🧑‍💻 Author
 
+Created by **Ali Abdullah**  
+Passionate about CLI tools and productivity ✨
 
-# Author 
+---
 
-Ali Abdullah
+> Built with Node.js, Commander.js, Inquirer.js, Chalk, and fs module.
