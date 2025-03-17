@@ -1,5 +1,5 @@
 
-# 📂 file-checker-test
+# 📂 code-lens
 
 A powerful Node.js CLI tool to **search, view, edit, and delete files and folders** directly from the terminal.
 
@@ -17,24 +17,24 @@ A powerful Node.js CLI tool to **search, view, edit, and delete files and folder
 ## 📦 Installation
 
 ```bash
-npm install -g file-checker-test
+npm install -g code-lens
 ```
 
 ## 🛠 Usage
 
 ### Check (Search File)
 ```bash
-file-checker-test check
+code-lens check
 ```
 
 ### Edit File
 ```bash
-file-checker-test edit
+code-lens edit
 ```
 
 ### Delete File or Folder
 ```bash
-file-checker-test delete
+code-lens delete
 ```
 
 ## ✨ Edit Modes

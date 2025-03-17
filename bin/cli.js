@@ -8,9 +8,9 @@ import os from "os";
 import { spawn } from "child_process";
 
 program
-  .name("file-checker-test")
+  .name("code-lens")
   .description("Search files in large folders using file-checker")
-  .version("1.0.0");
+  .version("2.0.0");
 
 program
   .command("edit")
