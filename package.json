@@ -1,6 +1,6 @@
 {
   "name": "code-lens-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A powerful Node.js CLI tool to search, view, edit, and delete files and folders directly from the terminal.",
   "main": "cli.js",
   "type": "module",
