@@ -47,9 +47,9 @@ code-lens delete
 ## 📂 Example
 
 ```bash
-file-checker-test check --file index.js
-file-checker-test edit
-file-checker-test delete
+code-lens check --file [filename with extension]
+code-lens edit
+code-lens delete
 ```
 
 ## 🧑‍💻 Author
